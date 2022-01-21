@@ -42,6 +42,8 @@ let customParametersRadio = document.getElementById("customParametersRadio")
 jsonRadio.addEventListener("click", () => {
     jsonResponceDiv.style.display = "block"
     parameterResponceDiv.style.display = "none";
+    dataShowingArea.innerHTML = ""
+
 })
 
 customParametersRadio.addEventListener("click", () => {
