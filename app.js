@@ -181,6 +181,9 @@ function postData(dataInBody) {
                                         Some Error Occurs. Please Check Your URL and Data
                                     </div>
                                 </div>`
+            setTimeout(() => {
+                alert.innerHTML = ""
+            }, 2000);
             // alert("Some Error Occurs")
         })
 }
